@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\static\css\form_style.css">
+    <title>Career Forms</title>
+</head>
+<body>
+    <h1>Make your career preferences</h1>
+    <p>Please fill out this form with the required information</p>
+    <form action='/form-action' method="POST">
+      <fieldset>
+        <label>1.Select a City.
+            <select name="location">
+              <option value="0">Pune</option>
+              <option value="1">Chennai</option>
+              <option value="2">Hyderabad</option>
+              <option value="3">Mumbai</option>
+              <option value="4">Bangalore</option>
+              <option value="5">Delhi</option>
+              <option value="6">Manipal</option>
+              <option value="7">Jalander</option>
+              <option value="8">Nagpur</option>
+            </select>
+          </label>
+          <label>2.Branch you want
+            <select name="branch">
+              <option value="0">Civil Engineering</option>
+              <option value="1">Computer Engineering</option>
+              <option value="2">Electrical Engineering</option>
+              <option value="3">Mechanical Engineering</option>
+              <option value="4">ENTC</option>
+              <option value="5">IT</option>
+              <option value="6">MBA</option>
+            </select>
+          </label>
+          <label>3.Your %
+            <select name="Marks">
+              <option value="0">51 above</option>
+              <option value="1">91 above</option>
+              <option value="2">81%-90%</option>
+              <option value="3">71%-80%</option>
+              <option value="4">61%-70%</option>
+            </select>
+          </label>
+      <input type="submit" value="Submit" />
+    </form>
+
+</body>
+</html>

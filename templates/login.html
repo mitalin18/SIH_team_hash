@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Team Hash</title>
+    <!-- Favicon-->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7h6CVOIjFJZ9w5H5PYAzuH2FQW3ixo4xxw&usqp=CAU"
+    />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS\ (includes Bootstrap)-->
+    <!-- <link herf="./static/assets/css/style.css " rel="stylesheet" /> -->
+    <link href="./static/css/css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <!-- Login-->
+    <section class="page-section" id="login">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Login</h2>
+        </div>
+        <div class="col-md-login">
+          <div class="form-group">
+            <!-- Email address input-->
+            <input
+              class="form-control"
+              id="email"
+              type="email"
+              placeholder=" Email id *"
+              data-sb-validations="required,email"
+            />
+            <div class="invalid-feedback" data-sb-feedback="email:required">
+              An email is required.
+            </div>
+            <div class="invalid-feedback" data-sb-feedback="email:email">
+              Email is not valid.
+            </div>
+          </div>
+          <div class="form-group mb-md-0">
+            <!-- Password input-->
+            <input
+              class="form-control"
+              id="Password"
+              type="password"
+              placeholder="Password *"
+              data-sb-validations="required"
+            />
+            <div class="invalid-feedback" data-sb-feedback="phone:required">
+              A phone number is required.
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <button
+            class="btn btn-primary btn-xl text-uppercase disabled"
+            id="submitButton"
+            type="submit"
+          >
+            login
+          </button>
+        </div>
+
+        <div class="loginbuttons">
+          <div class="text-center">
+            <button
+              class="btn btn-primary btn-x3 text-uppercase"
+              id="loginButton"
+              type="login"
+            >
+              forget password
+            </button>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary btn-x3 text-uppercase" type="login">
+              Create Account
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
